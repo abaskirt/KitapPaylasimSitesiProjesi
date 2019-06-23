@@ -1,0 +1,40 @@
+.p-y-2 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+	margin-left: 0px;
+}
+.p-y-3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.m-b-1 {
+    margin-bottom: 18px;
+}
+.m-t-1 {
+    margin-top: 18px;
+}
+
+
+            /*==========================================================
+                           counter section style
+            ============================================================*/
+
+            .main_counter_area{
+                background: url(http://frpnet.net/wp-content/uploads/2015/10/kitap-book-banner.jpg) no-repeat top center;
+                background-size: cover;
+                overflow: hidden;
+				width:100%;
+            }
+            .main_counter_area .main_counter_content .single_counter{
+                background: rgba(94, 122, 238, 0.70);
+                color: #fff;
+				width:200px;
+				height:200px;
+				border-radius:50%;	
+            }
+            .main_counter_area .main_counter_content .single_counter i{
+                font-size:36px;
+            }
+.statistic-counter{
+	color: #FFF;
+}

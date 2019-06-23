@@ -1,0 +1,12 @@
+<?php
+	require_once('common.php');
+	session_start();
+	$id=$_GET["pId"];
+	$_SESSION['yayinevi']=$id;
+	if(!isset($_SESSION['userId'])){
+		header("location:index.php");
+	}
+	$tpl->display('userheader');
+	$tpl->display('publisher');
+	$tpl->display('footer');
+	?>

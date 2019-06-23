@@ -1,0 +1,156 @@
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 0px 40px;
+  margin-top: 20px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: 0px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 130px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: 0px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 130px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 250px;
+}
+/* End carousel */
+.right-title{
+    background-color: #428bca;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+
+.end-book-name{
+  font-size: 18px;
+  text-align: center;
+}
+.end-book-author{
+  font-size: 10px;
+  text-align: center;
+}
+
+.top-point{
+  font-size: 13px;
+  float: right;
+  margin-top: 1px;
+}
+
+.rounded-list{
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    margin: 20px 10px;
+    overflow: auto;
+    height: 193px;
+}
+    .rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+    background-color: #428bca;
+    color: #FFFFFF;
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -0.5em;
+    top: 50%;
+    margin-top: -1.0em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .2em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    
+}
+.thumbnail{
+  height: 325px;
+}
+
+.rounded-list::-webkit-scrollbar
+{
+  width: 9px;
+	background-color: #F5F5F5;
+  margin-top: 10px;
+}
+
+.rounded-list::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.rounded-list::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #c0c0c0;
+}

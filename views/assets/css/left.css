@@ -1,0 +1,182 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color:#f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+/*Bootstrap submenu*/
+
+.sub-menu li.active {
+  color: #f6f9fb;
+}
+.sub-menu li.active a {
+  color: #f6f9fb;
+}
+.sub-menu li {
+
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+  background-color:#F8FBFF;
+  border: none;
+  line-height: 30px;
+  border-bottom: 1px solid #f6f9fb;
+  margin-left: -40px;
+  list-style-type:none;
+}
+.sub-menu li:hover,
+.sub-menu li:hover {
+  background-color:#C2DCFF;
+}
+.sub-menu a:hover {
+  text-decoration:none;
+}
+.sub-menu li:before,
+.sub-menu li:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  color:#93a3b5;
+}
+.sub-menu #showAll
+{
+	font-size:12px;
+	color:#0004F8;
+	background-color:#9DBBE2;
+}
+.sub-menu #showAll:hover
+{
+	background-color:#6791C7;
+}
+.profile-bookpic img {
+  float: none;
+  margin: 0 auto;
+  width: 220px;
+  height: 350px;
+  
+}
+.avgPoint{
+  font-size:16px;
+  padding-left:40px;
+  padding-right:40px;
+  width:100px;
+}
+.givePointBook{
+  margin-left: 10px;
+}
+.str{
+  margin-right:20px;
+}
+#leftBookName{
+	font-size:26px;
+}

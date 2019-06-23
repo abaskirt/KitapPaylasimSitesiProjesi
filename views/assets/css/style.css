@@ -1,0 +1,50 @@
+footer{
+    background-color:#428bca !important;
+    color: #fff;  
+    font-family: 'Patua One', cursive;
+    font-size:15px;
+	
+}
+
+.cizgi {
+	border-bottom: 2px solid #828282; 
+	margin-bottom: 15px; 
+	margin-top: 8px; 
+	width:400px;
+	
+	}
+table a:hover{
+	
+       color :#1c86ee;
+	text-decoration :none;
+		
+	}
+big
+{
+	color:#adadad;
+}
+#enAlt{
+	color:#FFFFFF;
+}
+
+#enAlt:hover
+{
+	font-family: 'Patua One', cursive;
+    font-size : 15px;
+    color :#e8e8e8;
+    text-decoration :none;
+}
+
+#search{
+  background-color: transparent;
+  border-color:transparent;
+  color:#fff;
+  border-radius:10px;
+  margin-top:5px;
+}
+#searchForm{
+  padding-left:5px;
+  border-radius:20px;
+  margin-top:5px;
+}
+

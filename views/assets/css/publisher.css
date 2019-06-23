@@ -1,0 +1,13 @@
+#publisherBooks img{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+    width: 150px;
+}
+#about {
+	font-size:15px;
+	font-family:arial;
+	color:#333;
+	text-align:justify;
+}

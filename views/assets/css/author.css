@@ -1,0 +1,37 @@
+#tab ul {
+    list-style-type: none;
+    background-color: rgba(0,0,0,0);
+    float: right;
+	margin-right: 400px;
+    margin-top: 8px;
+	font-family: FontAwesome;
+  font-size: 20px;
+  }
+
+#tab li {
+    float: left;
+}
+#tab li a {
+    display: block;
+    color: #5a7391;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#tab li a:hover {
+    background-color: #e8e8e8;
+    text-decoration: none;
+}
+#authorBooks img{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+    width: 150px;
+}
+#biography {
+	font-size:15px;
+	font-family:arial;
+	color:#333;
+	text-align:justify;
+}
